@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="nopCommerce" duration-ms="20020" started-at="2021-03-03T19:36:00 CST" finished-at="2021-03-03T19:36:20 CST">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="20020" started-at="2021-03-03T19:36:00 CST" finished-at="2021-03-03T19:36:20 CST">
+      <class name="testCases.NopAutomation">
+        <test-method status="PASS" signature="openURL(java.lang.String)[pri:0, instance:testCases.NopAutomation@cb51256]" name="openURL" is-config="true" duration-ms="7651" started-at="2021-03-03T19:36:00 CST" finished-at="2021-03-03T19:36:08 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openURL -->
+        <test-method status="PASS" signature="appAutomation()[pri:0, instance:testCases.NopAutomation@cb51256]" name="appAutomation" duration-ms="12317" started-at="2021-03-03T19:36:08 CST" finished-at="2021-03-03T19:36:20 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appAutomation -->
+      </class> <!-- testCases.NopAutomation -->
+    </test> <!-- Test1 -->
+  </suite> <!-- nopCommerce -->
+</testng-results>
